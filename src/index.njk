@@ -1,0 +1,11 @@
+---
+layout: default.njk
+---
+
+{% for row in testimony['volume-15'] %}
+	<p>{{ row.text_clean_combined }}</p>
+	{% if row.line_type == "speaker_start" %}
+		<em>{{ row.speaker_standardized }}</em>
+	{% endif %}
+{% endfor %}
+
