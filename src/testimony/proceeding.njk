@@ -19,12 +19,24 @@ permalink: "testimony/proceedings/day-{{ proceeding.day | slug }}/"
 		<h2 class="testimony-section-header">{{ row.text }}</h2>
 	{% elif row.line_type == "speaker_start" %}
 		<div class="intervention intervention--{{ row.speaker_group }}" id="{{ row.intervention_id }}">
-			<p class="intervention-speaker">{{ row.speaker_proper }}</p>
+			<p class="intervention-speaker">
+				{% if row.speaker_title_abbr %}
+					<a href="/testimony/speakers/FIXME/">{{ row.speaker_proper }}</a>, <abbr title="{{ row.speaker_title }}">{{ row.speaker_title_abbr }}</abbr>
+				{% elif row.speaker_title %}
+					<a href="/testimony/speakers/FIXME/">{{ row.speaker_proper }}</a>, {{ row.speaker_title }}
+				{% else %}
+					<a href="/testimony/speakers/FIXME/">{{ row.speaker_proper }}</a>
+				{% endif %}
+				{% if row.speaker_affiliation_abbr %}
+					(<abbr title="{{ row.speaker_affiliation }}">{{ row.speaker_affiliation_abbr }}</abbr>)
+				{% elif row.speaker_affiliation %}
+					({{ row.speaker_affiliation }})
+				{% endif %}
+			</p>
 			<p>{{ row.text }}</p>
-			<ul class="intervention-meta">
-				<li><a href="/testimony/speakers/FIXME/">{{ row.speaker_proper }}</a>, {{ row.speaker_title}} ({{ row.speaker_affiliation }})</li>
-				<li><a href="{{ proceeding.transcript_url }}#page={{ row.page }}">Volume {{ proceeding.day }} ({{ proceeding.date_raw }}), page {{ row.page }}</a></li>
-			</ul>
+			<p class="intervention-meta">
+				<a href="{{ proceeding.transcript_url }}#page={{ row.page }}">Volume {{ proceeding.day }} ({{ proceeding.date_raw }}), page {{ row.page }}</a></li>
+			</p>
 		</div>
 	{% elif row.line_type == "time_marker" %}
 		<p class="time-marker">{{ row.text }}</p>
