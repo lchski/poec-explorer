@@ -8,6 +8,22 @@
 		<link rel="stylesheet" href="/assets/style.css">
 	</head>
 	<body>
-		{{ content | safe }}
+		<header class="site-header">
+			<nav class="site-nav">
+				<a href="/" class="nav-link--main"><abbr title="Public Order Emergency Commission">POEC</abbr> Explorer</a>
+				<a href="/testimony/proceedings/">Testimony by day</a>
+				<a href="/testimony/speakers/">Speakers</a>
+			</nav>
+		</header>
+		<main>
+			{{ content | safe }}
+		</main>
+		<footer class="site-footer">
+			<nav class="site-nav">
+				<a href="/" class="nav-link--main"><abbr title="Public Order Emergency Commission">POEC</abbr> Explorer</a>
+				<a href="/testimony/proceedings/">Testimony by day</a>
+				<a href="/testimony/speakers/">Speakers</a>
+			</nav>
+		</footer>
 	</body>
 </html>

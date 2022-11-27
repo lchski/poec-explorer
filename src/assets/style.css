@@ -10,6 +10,9 @@
 
 html {
 	background-color: rgba(100, 100, 100, 0.2);
+}
+
+main {
 	padding: 0 1rem;
 }
 
@@ -101,20 +104,20 @@ html {
 			text-align: right;
 		}
 
-	.intervention a {
-		color: black; /* TODO: set this to an overall text colour */
+a {
+	color: black; /* TODO: set this to an overall text colour */
+}
+
+	a:hover {
+		text-decoration: none;
 	}
 
-		.intervention a:hover {
-			text-decoration: none;
-		}
+	a:focus {
+		text-decoration: none;
 
-		.intervention a:focus {
-			text-decoration: none;
-
-			outline: 3px solid rebeccapurple;
-			outline-offset: 3px;
-		}
+		outline: 3px solid rebeccapurple;
+		outline-offset: 3px;
+	}
 
 
 .list--spaced li {
@@ -142,4 +145,37 @@ ol.speaker-interventions {
 	.speaker-metadata dd {
 		margin-top: 0.25rem;
 		margin-left: 0;
+	}
+
+.site-header {
+	background:rgba(0, 0, 0, 0.75);
+	border-bottom: 1rem solid white;
+
+	padding: 1.5rem 1rem;
+
+	color: white;
+}
+
+	.site-header a {
+		color: white;
+	}
+
+.site-footer {
+	padding: 3rem 1rem;
+}
+
+.site-nav {
+	max-width: 32em;
+	padding: 0 1rem;
+	margin: 0 auto;
+}
+
+	.site-nav a {
+		display: inline-block;
+
+		margin-right: 1rem;
+	}
+
+	.site-nav .nav-link--main {
+		font-weight: bold;
 	}
