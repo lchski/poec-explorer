@@ -8,6 +8,10 @@ module.exports = function(eleventyConfig) {
 		});
 		return records;
 	});
+
+	eleventyConfig.addFilter("filterMatchingRows", function(arrayToFilter, arrayVar, comparisonValue) {
+		return arrayToFilter.filter((value) => value[arrayVar] == comparisonValue);
+	});
 	
 	// Return your Object options:
 	return {
