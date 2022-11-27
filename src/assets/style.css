@@ -23,6 +23,10 @@ html {
 	border: 1rem solid #ffff99; /* border colours from: https://colorbrewer2.org/#type=qualitative&scheme=Accent&n=5 */
 	border-bottom-width: 0;
 	border-left-width: 0;
+
+	max-width: 32em;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 	.intervention--commission {
@@ -57,4 +61,23 @@ html {
 	.intervention-meta {
 		font-size: 0.8em;
 	}
+
+	.intervention-permalink {
+		float: right;
+	}
+
+	.intervention a {
+		color: black; /* TODO: set this to an overall text colour */
+	}
+
+		.intervention a:hover {
+			text-decoration: none;
+		}
+
+		.intervention a:focus {
+			text-decoration: none;
+
+			outline: 3px solid rebeccapurple;
+			outline-offset: 3px;
+		}
 

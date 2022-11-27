@@ -35,7 +35,8 @@ permalink: "testimony/proceedings/day-{{ proceeding.day | slug }}/"
 			</p>
 			<p>{{ row.text }}</p>
 			<p class="intervention-meta">
-				<a href="{{ proceeding.transcript_url }}#page={{ row.page }}">Volume {{ proceeding.day }} ({{ proceeding.date_raw }}), page {{ row.page }}</a></li>
+				<a href="{{ proceeding.transcript_url }}#page={{ row.page }}">Volume {{ proceeding.day }} ({{ proceeding.date_raw }}), page {{ row.page }}</a>
+				<a class="intervention-permalink" href="#{{ row.intervention_id }}">#</a>
 			</p>
 		</div>
 	{% elif row.line_type == "time_marker" %}
