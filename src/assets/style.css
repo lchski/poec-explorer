@@ -116,6 +116,14 @@ html {
 	margin-top: 0.5em;
 }
 
+ol.speaker-interventions {
+	padding-left: 0;
+}
+
+	.speaker-interventions li.intervention {
+		list-style: none;
+	}
+
 .speaker-metadata {
 
 }

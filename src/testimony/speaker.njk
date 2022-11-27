@@ -33,9 +33,28 @@ eleventyComputed:
   <p>{{ speaker.speaker_proper }} spoke {{ speaker.n_interventions }} time{{ 's' if speaker.n_interventions != 1 }} across {{ speaker.n_speaking_days }} day{{ 's' if speaker.n_speaking_days != 1 }} of testimony.
 </section>
 
-<ol>
+<ol class="speaker-interventions">
 {% for row in testimony.testimony | filterMatchingRows("speaker_standardized", speaker.speaker_standardized) %}
   {% set path_to_intervention = '/testimony/proceedings/day-' + row.day + '/#' + row.intervention_id %}
-	<li id="{{ row.intervention_id }}"><a href="{{ path_to_intervention }}">{{ row.intervention_id }}</a>: {{ row.text }}</li>
+  <li class="intervention intervention--{{ row.speaker_group }}" id="{{ row.intervention_id }}">
+    <p class="intervention-speaker">
+      {% if row.speaker_title_abbr %}
+        <a href="/testimony/speakers/{{ row.speaker_id_web }}/">{{ row.speaker_proper }}</a>, <abbr title="{{ row.speaker_title }}">{{ row.speaker_title_abbr }}</abbr>
+      {% elif row.speaker_title %}
+        <a href="/testimony/speakers/{{ row.speaker_id_web }}/">{{ row.speaker_proper }}</a>, {{ row.speaker_title }}
+      {% else %}
+        <a href="/testimony/speakers/{{ row.speaker_id_web }}/">{{ row.speaker_proper }}</a>
+      {% endif %}
+      {% if row.speaker_affiliation_abbr %}
+        (<abbr title="{{ row.speaker_affiliation }}">{{ row.speaker_affiliation_abbr }}</abbr>)
+      {% elif row.speaker_affiliation %}
+        ({{ row.speaker_affiliation }})
+      {% endif %}
+    </p>
+    <p>{{ row.text }}</p>
+    <p class="intervention-meta">
+      <a class="intervention-permalink" href="{{ path_to_intervention }}">{{ row.intervention_id }}</a>
+    </p>
+  </li>
 {% endfor %}
 <ol>
