@@ -18,10 +18,12 @@ permalink: "testimony/proceedings/day-{{ proceeding.day | slug }}/"
 	<section>
 		<h2 class="testimony-section-header">{{ row.text }}</h2>
 	{% elif row.line_type == "speaker_start" %}
-		<div class="intervention intervention-{{ row.speaker_group }}" id="{{ row.intervention_id }}">
+		<div class="intervention intervention--{{ row.speaker_group }}" id="{{ row.intervention_id }}">
+			<p class="intervention-speaker">{{ row.speaker_proper }}</p>
 			<p>{{ row.text }}</p>
 			<ul class="intervention-meta">
-				<li><a href="/testimony/speakers/{{ row.speaker_proper | slugify }}/">{{ row.speaker_proper }}</a>, {{ row.speaker_title}} ({{ row.speaker_affiliation }})</li>
+				<li><a href="/testimony/speakers/FIXME/">{{ row.speaker_proper }}</a>, {{ row.speaker_title}} ({{ row.speaker_affiliation }})</li>
+				<li><a href="{{ proceeding.transcript_url }}#page={{ row.page }}">Volume {{ proceeding.day }} ({{ proceeding.date_raw }}), page {{ row.page }}</a></li>
 			</ul>
 		</div>
 	{% elif row.line_type == "time_marker" %}
