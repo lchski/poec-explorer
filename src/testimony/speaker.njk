@@ -5,6 +5,8 @@ pagination:
   size: 1
   alias: speaker
 permalink: "testimony/speakers/{{ speaker.speaker_id_web }}/"
+eleventyComputed:
+  title: "{{ speaker.speaker_proper }} – Interventions – POEC Explorer"
 ---
 
 Here are all the times {{ speaker.speaker_proper }} spoke:
