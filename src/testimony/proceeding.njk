@@ -1,0 +1,37 @@
+---
+pagination:
+  data: testimony.proceedings
+  size: 1
+  alias: proceeding
+permalink: "testimony/proceedings/day-{{ proceeding.day | slug }}/"
+---
+
+{{ proceeding.date_raw }}
+
+{% set volume = 'volume-' + proceeding.day %}
+
+{% for row in testimony[volume] %}
+	{% if row.line_type == "proceedings_start" %}
+	<section>
+		<p>{{ row.text_clean_combined }}</p>
+	{% elif row.line_type == "section_header" %}
+	</section>
+	<section>
+		<h2>{{ row.text_clean_combined }}</h2>
+	{% elif row.line_type == "speaker_start" %}
+		<p>{{ row.text_clean_combined }}</p>
+		<em>{{ row.speaker_standardized }}</em>
+	{% elif row.line_type == "time_marker" %}
+		<p>{{ row.text_clean_combined }}</p>
+	</section>
+	<section>
+	{% elif row.line_type == "proceedings_end" %}
+		<p>{{ row.text_clean_combined }}
+	</section>
+	{% else %}
+		<strong>uncat line_type: {{ row.line_type }}</strong>
+		<p>{{ row.text_clean_combined }}</p>
+	{% endif %}
+{% endfor %}
+
+
