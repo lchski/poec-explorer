@@ -1,4 +1,4 @@
-const parse = require("csv-parse/lib/sync");
+const {parse} = require('csv-parse/sync');
 
 module.exports = function(eleventyConfig) {
 	eleventyConfig.addDataExtension("csv", (contents) => {
