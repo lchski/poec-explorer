@@ -8,9 +8,7 @@ permalink: "testimony/proceedings/day-{{ proceeding.day | slug }}/"
 
 {{ proceeding.date_raw }}
 
-{% set testimony_for_day = testimony.testimony | filterMatchingRows("day", proceeding.day) %}
-
-{% for row in testimony_for_day %}
+{% for row in testimony.testimony | filterMatchingRows("day", proceeding.day) %}
 	{% if row.line_type == "proceedings_start" %}
 	<section>
 		<p>{{ row.text_clean_combined }}</p>
