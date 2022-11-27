@@ -8,9 +8,8 @@ permalink: "testimony/proceedings/day-{{ proceeding.day | slug }}/"
 
 {{ proceeding.date_raw }}
 
-{% set volume = 'volume-' + proceeding.day %}
-
-{% for row in testimony[volume] %}
+{% for row in testimony.testimony %}
+{% if row.day == proceeding.day %}
 	{% if row.line_type == "proceedings_start" %}
 	<section>
 		<p>{{ row.text_clean_combined }}</p>
@@ -32,6 +31,7 @@ permalink: "testimony/proceedings/day-{{ proceeding.day | slug }}/"
 		<strong>uncat line_type: {{ row.line_type }}</strong>
 		<p>{{ row.text_clean_combined }}</p>
 	{% endif %}
+{% endif %}
 {% endfor %}
 
 
