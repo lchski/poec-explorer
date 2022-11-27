@@ -11,24 +11,27 @@ permalink: "testimony/proceedings/day-{{ proceeding.day | slug }}/"
 {% for row in testimony.testimony | filterMatchingRows("day", proceeding.day) %}
 	{% if row.line_type == "proceedings_start" %}
 	<section>
-		<p>{{ row.text_clean_combined }}</p>
+		<p class="time-marker">{{ row.text }}</p>
 	{% elif row.line_type == "section_header" %}
 	</section>
 	<section>
-		<h2>{{ row.text_clean_combined }}</h2>
+		<h2 class="testimony-section-header">{{ row.text }}</h2>
 	{% elif row.line_type == "speaker_start" %}
-		<p>{{ row.text_clean_combined }}</p>
-		<em>{{ row.speaker_standardized }}</em>
+		<div class="intervention">
+			<p>{{ row.text }}</p>
+			<ul class="intervention-meta">
+				<li>{{ row.speaker_standardized }}</li>
+			</ul>
+		</div>
 	{% elif row.line_type == "time_marker" %}
-		<p>{{ row.text_clean_combined }}</p>
+		<p class="time-marker">{{ row.text }}</p>
 	</section>
 	<section>
 	{% elif row.line_type == "proceedings_end" %}
-		<p>{{ row.text_clean_combined }}
+		<p class="time-marker">{{ row.text }}
 	</section>
 	{% else %}
-		<strong>uncat line_type: {{ row.line_type }}</strong>
-		<p>{{ row.text_clean_combined }}</p>
+		<p><strong>uncat line_type: {{ row.line_type }}</strong> {{ row.text }}</p>
 	{% endif %}
 {% endfor %}
 

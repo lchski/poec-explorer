@@ -10,6 +10,6 @@ Here are all the times {{ speaker.speaker_proper }} spoke:
 
 <ol>
 {% for row in testimony.testimony | filterMatchingRows("speaker_standardized", speaker.speaker_standardized) %}
-	<li>{{ row.interjection_id }}: {{ row.text_clean_combined }}</li>
+	<li>{{ row.intervention_id }}: {{ row.text }}</li>
 {% endfor %}
 <ol>
