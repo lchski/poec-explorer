@@ -4,7 +4,7 @@ pagination:
   data: testimony.proceedings
   size: 1
   alias: proceeding
-permalink: "testimony/proceedings/day-{{ proceeding.day | slug }}/"
+permalink: "testimony/proceedings/day-{{ proceeding.day | slugify }}/"
 ---
 
 {{ proceeding.date_raw }}
@@ -12,20 +12,24 @@ permalink: "testimony/proceedings/day-{{ proceeding.day | slug }}/"
 {% for row in testimony.testimony | filterMatchingRows("day", proceeding.day) %}
 	{% if row.line_type == "proceedings_start" %}
 	<section>
-		<p class="time-marker">{{ row.text }}</p>
+		<div class="intervention intervention--time-marker">
+			<p class="time-marker">{{ row.text }}</p>
+		</div>
 	{% elif row.line_type == "section_header" %}
 	</section>
 	<section>
-		<h2 class="testimony-section-header">{{ row.text }}</h2>
+		<header class="intervention intervention--section-header">
+			<h2 class="testimony-section-header">{{ row.text }}</h2>
+		</header>
 	{% elif row.line_type == "speaker_start" %}
 		<div class="intervention intervention--{{ row.speaker_group }}" id="{{ row.intervention_id }}">
 			<p class="intervention-speaker">
 				{% if row.speaker_title_abbr %}
-					<a href="/testimony/speakers/FIXME/">{{ row.speaker_proper }}</a>, <abbr title="{{ row.speaker_title }}">{{ row.speaker_title_abbr }}</abbr>
+					<a href="/testimony/speakers/{{ row.speaker_id_web }}/">{{ row.speaker_proper }}</a>, <abbr title="{{ row.speaker_title }}">{{ row.speaker_title_abbr }}</abbr>
 				{% elif row.speaker_title %}
-					<a href="/testimony/speakers/FIXME/">{{ row.speaker_proper }}</a>, {{ row.speaker_title }}
+					<a href="/testimony/speakers/{{ row.speaker_id_web }}/">{{ row.speaker_proper }}</a>, {{ row.speaker_title }}
 				{% else %}
-					<a href="/testimony/speakers/FIXME/">{{ row.speaker_proper }}</a>
+					<a href="/testimony/speakers/{{ row.speaker_id_web }}/">{{ row.speaker_proper }}</a>
 				{% endif %}
 				{% if row.speaker_affiliation_abbr %}
 					(<abbr title="{{ row.speaker_affiliation }}">{{ row.speaker_affiliation_abbr }}</abbr>)
@@ -40,11 +44,15 @@ permalink: "testimony/proceedings/day-{{ proceeding.day | slug }}/"
 			</p>
 		</div>
 	{% elif row.line_type == "time_marker" %}
-		<p class="time-marker">{{ row.text }}</p>
+		<div class="intervention intervention--time-marker">
+			<p class="time-marker">{{ row.text }}</p>
+		</div>
 	</section>
 	<section>
 	{% elif row.line_type == "proceedings_end" %}
-		<p class="time-marker">{{ row.text }}
+		<div class="intervention intervention--time-marker">
+			<p class="time-marker">{{ row.text }}
+		</div>
 	</section>
 	{% else %}
 		<p><strong>uncat line_type: {{ row.line_type }}</strong> {{ row.text }}</p>
