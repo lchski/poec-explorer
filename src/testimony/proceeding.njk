@@ -7,12 +7,40 @@ pagination:
 permalink: "testimony/proceedings/day-{{ proceeding.day | slugify }}/"
 ---
 
-{{ proceeding.date_raw }}
+<section class="testimony-intro intervention intervention--time-marker">
+	<h1>Volume {{ proceeding.day }} ({{ proceeding.date_raw }})</h1>
+
+	<p class="intervention-meta">(<a href="#testimony">jump to testimony</a>)</p>
+
+	<p>Volume {{ proceeding.day }} has {{ proceeding.pages_of_testimony }} pages of testimony. {{ proceeding.n_speakers }} people spoke before the Commission, including {{ proceeding.n_witnesses }} witness{{ 'es' if proceeding.n_witnesses != 1 }}.</p>
+
+	<p>Speakers, by number of times they spoke:</p>
+
+	<ol class="list--spaced">
+	{% for speaker in proceeding.speakers %}
+		<li>
+			{% if speaker.speaker_title_abbr %}
+				<a href="/testimony/speakers/{{ speaker.speaker_id_web }}/">{{ speaker.speaker_proper }}</a>, <abbr title="{{ speaker.speaker_title }}">{{ speaker.speaker_title }} ({{ speaker.speaker_title_abbr }})</abbr>
+			{% elif speaker.speaker_title %}
+				<a href="/testimony/speakers/{{ speaker.speaker_id_web }}/">{{ speaker.speaker_proper }}</a>, {{ speaker.speaker_title }}
+			{% else %}
+				<a href="/testimony/speakers/{{ speaker.speaker_id_web }}/">{{ speaker.speaker_proper }}</a>
+			{% endif %}
+			{% if speaker.speaker_affiliation_abbr %}
+				- <abbr title="{{ speaker.speaker_affiliation }}">{{ speaker.speaker_affiliation }} ({{ speaker.speaker_affiliation_abbr }})</abbr>
+			{% elif speaker.speaker_affiliation %}
+				- {{ speaker.speaker_affiliation }}
+			{% endif %}
+			(spoke {{ speaker.n_interventions }} time{{ 's' if speaker.n_interventions != 1 }})
+		</li>
+	{% endfor %}
+	</ol>
+</section>
 
 {% for row in testimony.testimony | filterMatchingRows("day", proceeding.day) %}
 	{% if row.line_type == "proceedings_start" %}
 	<section>
-		<div class="intervention intervention--time-marker">
+		<div id="testimony" class="intervention intervention--time-marker">
 			<p class="time-marker">{{ row.text }}</p>
 		</div>
 	{% elif row.line_type == "section_header" %}
@@ -51,7 +79,7 @@ permalink: "testimony/proceedings/day-{{ proceeding.day | slugify }}/"
 	<section>
 	{% elif row.line_type == "proceedings_end" %}
 		<div class="intervention intervention--time-marker">
-			<p class="time-marker">{{ row.text }}
+			<p class="time-marker">{{ row.text }}</p>
 		</div>
 	</section>
 	{% else %}
