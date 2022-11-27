@@ -1,0 +1,15 @@
+---
+pagination:
+  data: testimony.speakers
+  size: 1
+  alias: speaker
+permalink: "testimony/speakers/{{ speaker.speaker_standardized | slug }}/"
+---
+
+Here are all the times {{ speaker.speaker_proper }} spoke:
+
+<ol>
+{% for row in testimony.testimony | filterMatchingRows("speaker_standardized", speaker.speaker_standardized) %}
+	<li>{{ row.interjection_id }}: {{ row.text_clean_combined }}</li>
+{% endfor %}
+<ol>
