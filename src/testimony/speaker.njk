@@ -9,7 +9,29 @@ eleventyComputed:
   title: "{{ speaker.speaker_proper }} – Interventions – POEC Explorer"
 ---
 
-Here are all the times {{ speaker.speaker_proper }} spoke:
+<section class="speaker-intro intervention intervention--time-marker">
+  <h1>{{ speaker.speaker_proper }}</h1>
+
+  <dl class="speaker-metadata">
+    {% if speaker.speaker_title_abbr %}
+      <dt>Title</dt>
+      <dd><abbr title="{{ speaker.speaker_title }}">{{ speaker.speaker_title }} ({{ speaker.speaker_title_abbr }})</abbr></dd>
+    {% elif speaker.speaker_title %}
+      <dt>Title</dt>
+      <dd>{{ speaker.speaker_title }}</dd>
+    {% endif %}
+  
+    {% if speaker.speaker_affiliation_abbr %}
+      <dt>Organization / Affiliation</dt>
+      <dd><abbr title="{{ speaker.speaker_affiliation }}">{{ speaker.speaker_affiliation }} ({{ speaker.speaker_affiliation_abbr }})</abbr></dd>
+    {% elif speaker.speaker_affiliation %}
+      <dt>Organization / Affiliation</dt>
+      <dd>{{ speaker.speaker_affiliation }}</dd>
+  {% endif %}
+  </dl>
+
+  <p>{{ speaker.speaker_proper }} spoke {{ speaker.n_interventions }} time{{ 's' if speaker.n_interventions != 1 }} across {{ speaker.n_speaking_days }} day{{ 's' if speaker.n_speaking_days != 1 }} of testimony.
+</section>
 
 <ol>
 {% for row in testimony.testimony | filterMatchingRows("speaker_standardized", speaker.speaker_standardized) %}

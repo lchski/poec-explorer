@@ -115,3 +115,18 @@ html {
 .list--spaced li {
 	margin-top: 0.5em;
 }
+
+.speaker-metadata {
+
+}
+
+	.speaker-metadata dt {
+		margin-top: 1rem;
+
+		font-style: italic;
+	}
+
+	.speaker-metadata dd {
+		margin-top: 0.25rem;
+		margin-left: 0;
+	}
