@@ -17,10 +17,10 @@ permalink: "testimony/proceedings/day-{{ proceeding.day | slug }}/"
 	<section>
 		<h2 class="testimony-section-header">{{ row.text }}</h2>
 	{% elif row.line_type == "speaker_start" %}
-		<div class="intervention">
+		<div class="intervention intervention-{{ row.speaker_group }}">
 			<p>{{ row.text }}</p>
 			<ul class="intervention-meta">
-				<li>{{ row.speaker_standardized }}</li>
+				<li>{{ row.speaker_proper }}, {{ row.speaker_title}} ({{ row.speaker_affiliation }})</li>
 			</ul>
 		</div>
 	{% elif row.line_type == "time_marker" %}
@@ -34,5 +34,3 @@ permalink: "testimony/proceedings/day-{{ proceeding.day | slug }}/"
 		<p><strong>uncat line_type: {{ row.line_type }}</strong> {{ row.text }}</p>
 	{% endif %}
 {% endfor %}
-
-
