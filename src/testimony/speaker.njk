@@ -3,7 +3,7 @@ pagination:
   data: testimony.speakers
   size: 1
   alias: speaker
-permalink: "testimony/speakers/{{ speaker.speaker_standardized | slug }}/"
+permalink: "testimony/speakers/{{ speaker.speaker_proper | slugify }}/"
 ---
 
 Here are all the times {{ speaker.speaker_proper }} spoke:
