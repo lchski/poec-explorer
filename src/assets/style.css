@@ -92,9 +92,14 @@ html {
 		font-size: 0.8em;
 	}
 
-	.intervention-permalink {
-		float: right;
+	.intervention-meta--gridded {
+		display: grid;
+		grid-template-columns: 1fr auto;
 	}
+
+		.intervention-meta .intervention-permalink {
+			text-align: right;
+		}
 
 	.intervention a {
 		color: black; /* TODO: set this to an overall text colour */
