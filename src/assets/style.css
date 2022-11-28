@@ -63,6 +63,14 @@ main {
 		margin-bottom: 2.5rem;
 	}
 
+	@media screen and (max-width: 38rem) {
+		.intervention--time-marker,
+		.intervention--section-header {
+			padding-left: 1rem;
+			padding-right: 1rem;
+		}
+	}
+
 		.intervention--time-marker .time-marker,
 		.intervention--section-header .testimony-section-header {
 			margin: 0;
