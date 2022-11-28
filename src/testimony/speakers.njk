@@ -1,0 +1,35 @@
+---
+layout: default
+title: "Speakers – POEC Explorer"
+---
+
+
+<section class="testimony-intro intervention intervention--time-marker">
+	<h1>Testimony by speaker</h1>
+
+	<p class="disclaimer">Very important disclaimer: <strong>testimony from this site should not be taken as authoritative; <a href="https://publicorderemergencycommission.ca/public-hearings/">check the relevant public hearing for verbatim quotes</a> and the associated transcript for the original</strong>. For convenience, testimony includes links directly to the relevant page (where a speaker started a given intervention) in the original PDF transcripts.</p>
+
+	
+	{% for speaker_group, speakers in testimony.speakers | sort(false, false, 'speaker_proper') | groupby('speaker_group') %}
+		<h2 id="speaker_group">{{ speaker_group | title }}</h2>
+		<ul class="list--spaced">
+			{% for speaker in speakers %}
+			<li>{% if speaker.speaker_title_abbr %}
+					<a href="/testimony/speakers/{{ speaker.speaker_id_web }}/">{{ speaker.speaker_proper }}</a>, <abbr title="{{ speaker.speaker_title }}">{{ speaker.speaker_title }} ({{ speaker.speaker_title_abbr }})</abbr>
+				{% elif speaker.speaker_title %}
+					<a href="/testimony/speakers/{{ speaker.speaker_id_web }}/">{{ speaker.speaker_proper }}</a>, {{ speaker.speaker_title }}
+				{% else %}
+					<a href="/testimony/speakers/{{ speaker.speaker_id_web }}/">{{ speaker.speaker_proper }}</a>
+				{% endif %}
+				{% if speaker.speaker_affiliation_abbr %}
+					- <abbr title="{{ speaker.speaker_affiliation }}">{{ speaker.speaker_affiliation }} ({{ speaker.speaker_affiliation_abbr }})</abbr>
+				{% elif speaker.speaker_affiliation %}
+					- {{ speaker.speaker_affiliation }}
+				{% endif %}
+				(spoke {{ speaker.n_interventions }} time{{ 's' if speaker.n_interventions != 1 }}, on {{ speaker.n_speaking_days }} day{{ 's' if speaker.n_speaking_days != 1 }})
+			</li>
+			{% endfor %}
+		</ul>
+	{% endfor %}
+	</ul>
+</section>

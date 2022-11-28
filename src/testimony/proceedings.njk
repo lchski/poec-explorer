@@ -1,0 +1,19 @@
+---
+layout: default
+title: "Proceedings – POEC Explorer"
+---
+
+
+<section class="testimony-intro intervention intervention--time-marker">
+	<h1>Testimony by day</h1>
+
+	<p class="disclaimer">Very important disclaimer: <strong>testimony from this site should not be taken as authoritative; <a href="https://publicorderemergencycommission.ca/public-hearings/">check the relevant public hearing for verbatim quotes</a> and the associated transcript for the original</strong>. For convenience, testimony includes links directly to the relevant page (where a speaker started a given intervention) in the original PDF transcripts.</p>
+
+	<ol class="list--spaced">
+	{% for proceeding in testimony.proceedings | sort(false, false, 'day') %}
+		<li>
+			<a href="/testimony/proceedings/day-{{ proceeding.day | slugify }}/">Volume {{ proceeding.day }} ({{ proceeding.date_raw }})</a> – {{ proceeding.n_speakers }} speakers, {{ proceeding.n_witnesses }} witness{{ 'es' if proceeding.n_witnesses != 1 }}, {{ proceeding.pages_of_testimony }} pages of testimony
+		</li>
+	{% endfor %}
+	</ol>
+</section>

@@ -126,6 +126,7 @@ a {
 
 .list--spaced li {
 	margin-top: 0.5em;
+	line-height: 1.3;
 }
 
 ol.speaker-interventions {
