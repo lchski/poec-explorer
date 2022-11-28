@@ -370,6 +370,16 @@
         "speaker_id_web": "paul-rouleau"
       },
       {
+        "speaker_standardized": "kenneth weatherill",
+        "n_interventions": 81,
+        "speaker_proper": "Kenneth Weatherill",
+        "speaker_title": "?TBC?",
+        "speaker_group": "witness",
+        "speaker_affiliation": "Solicitor General / Government of Ontario",
+        "speaker_affiliation_abbr": "ON-SolGen",
+        "speaker_id_web": "kenneth-weatherill"
+      },
+      {
         "speaker_standardized": "tom curry",
         "n_interventions": 69,
         "speaker_proper": "Tom Curry",
@@ -377,16 +387,6 @@
         "speaker_group": "counsel",
         "speaker_affiliation": "Peter Sloly",
         "speaker_id_web": "tom-curry"
-      },
-      {
-        "speaker_standardized": "kenneth weatherill",
-        "n_interventions": 65,
-        "speaker_proper": "Kenneth Weatherill",
-        "speaker_title": "?TBC?",
-        "speaker_group": "witness",
-        "speaker_affiliation": "Solicitor General / Government of Ontario",
-        "speaker_affiliation_abbr": "ON-SolGen",
-        "speaker_id_web": "kenneth-weatherill"
       },
       {
         "speaker_standardized": "janani shanmuganathan",
