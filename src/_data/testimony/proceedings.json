@@ -1079,6 +1079,16 @@
         "speaker_id_web": "graham-reeder"
       },
       {
+        "speaker_standardized": "cara zwibel",
+        "n_interventions": 17,
+        "speaker_proper": "Cara Zwibel",
+        "speaker_title": "Counsel",
+        "speaker_group": "counsel",
+        "speaker_affiliation": "Canadian Civil Liberties Association",
+        "speaker_affiliation_abbr": "CCLA",
+        "speaker_id_web": "cara-zwibel"
+      },
+      {
         "speaker_standardized": "tom curry",
         "n_interventions": 17,
         "speaker_proper": "Tom Curry",
@@ -1086,16 +1096,6 @@
         "speaker_group": "counsel",
         "speaker_affiliation": "Peter Sloly",
         "speaker_id_web": "tom-curry"
-      },
-      {
-        "speaker_standardized": "cara zwibel",
-        "n_interventions": 16,
-        "speaker_proper": "Cara Zwibel",
-        "speaker_title": "Counsel",
-        "speaker_group": "counsel",
-        "speaker_affiliation": "Canadian Civil Liberties Association",
-        "speaker_affiliation_abbr": "CCLA",
-        "speaker_id_web": "cara-zwibel"
       },
       {
         "speaker_standardized": "nini jones",
@@ -3197,7 +3197,7 @@
       },
       {
         "speaker_standardized": "mayor jimmy willett",
-        "n_interventions": 285,
+        "n_interventions": 286,
         "speaker_proper": "Jim Willett",
         "speaker_title": "Mayor",
         "speaker_group": "witness",
@@ -4831,7 +4831,7 @@
       },
       {
         "speaker_standardized": "jessica barrow",
-        "n_interventions": 17,
+        "n_interventions": 19,
         "speaker_proper": "Jessica Barrow",
         "speaker_title": "Counsel",
         "speaker_group": "counsel",
