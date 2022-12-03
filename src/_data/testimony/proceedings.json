@@ -1,5 +1,677 @@
 [
   {
+    "url": "https://publicorderemergencycommission.ca/public-hearings/day-36-december-02/",
+    "day": 36,
+    "date_raw": "December 2, 2022",
+    "date": "2022-12-02",
+    "transcript_filename": "POEC-Public-Hearings-Volume-36-December-2-2022.pdf",
+    "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-36-December-2-2022.pdf",
+    "transcript_court_reporter": "Mitchell Kersys",
+    "proceeding_phase": "policy",
+    "pages_of_testimony": 78,
+    "speakers": [
+      {
+        "speaker_standardized": "dr. nomi claire lazar",
+        "n_interventions": 53,
+        "speaker_proper": "Nomi Claire Lazar",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "nomi-claire-lazar"
+      },
+      {
+        "speaker_standardized": "dr. karin loevy",
+        "n_interventions": 11,
+        "speaker_proper": "Karin Loevy",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "karin-loevy"
+      },
+      {
+        "speaker_standardized": "commissioner rouleau",
+        "n_interventions": 10,
+        "speaker_proper": "Paul Rouleau",
+        "speaker_title": "Commissioner",
+        "speaker_group": "commission",
+        "speaker_affiliation": "Public Order Emergency Commission",
+        "speaker_affiliation_abbr": "POEC",
+        "speaker_id_web": "paul-rouleau"
+      },
+      {
+        "speaker_standardized": "dr. kim lane scheppele",
+        "n_interventions": 10,
+        "speaker_proper": "Kim Lane Scheppele",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "kim-lane-scheppele"
+      },
+      {
+        "speaker_standardized": "morris rosenberg",
+        "n_interventions": 9,
+        "speaker_proper": "Morris Rosenberg",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "morris-rosenberg"
+      },
+      {
+        "speaker_standardized": "ward elcock",
+        "n_interventions": 8,
+        "speaker_proper": "Ward Elcock",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "ward-elcock"
+      },
+      {
+        "speaker_standardized": "dr. hoi kong",
+        "n_interventions": 5,
+        "speaker_proper": "Hoi Kong",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "hoi-kong"
+      },
+      {
+        "speaker_standardized": "dr. victor v. ramraj",
+        "n_interventions": 5,
+        "speaker_proper": "Victor V. Ramraj",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "victor-v-ramraj"
+      },
+      {
+        "speaker_standardized": "the registrar",
+        "n_interventions": 4,
+        "speaker_proper": "The Registrar",
+        "speaker_group": "commission",
+        "speaker_affiliation": "Public Order Emergency Commission",
+        "speaker_affiliation_abbr": "POEC",
+        "speaker_id_web": "the-registrar"
+      }
+    ],
+    "n_speakers": 9,
+    "n_witnesses": 0
+  },
+  {
+    "url": "https://publicorderemergencycommission.ca/public-hearings/day-35-december-01/",
+    "day": 35,
+    "date_raw": "December 1, 2022",
+    "date": "2022-12-01",
+    "transcript_filename": "POEC-Public-Hearings-Volume-35-December-1-2022.pdf",
+    "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-35-December-1-2022.pdf",
+    "transcript_court_reporter": "Wendy Clements",
+    "proceeding_phase": "policy",
+    "pages_of_testimony": 181,
+    "speakers": [
+      {
+        "speaker_standardized": "dr. dennis baker",
+        "n_interventions": 62,
+        "speaker_proper": "Dennis Baker",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "dennis-baker"
+      },
+      {
+        "speaker_standardized": "dr. jocelyn stacey",
+        "n_interventions": 47,
+        "speaker_proper": "Jocelyn Stacey",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "jocelyn-stacey"
+      },
+      {
+        "speaker_standardized": "ryan teschner",
+        "n_interventions": 28,
+        "speaker_proper": "Ryan Teschner",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "ryan-teschner"
+      },
+      {
+        "speaker_standardized": "chief jim ramer",
+        "n_interventions": 15,
+        "speaker_proper": "Jim Ramer",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "jim-ramer"
+      },
+      {
+        "speaker_standardized": "commissioner rouleau",
+        "n_interventions": 11,
+        "speaker_proper": "Paul Rouleau",
+        "speaker_title": "Commissioner",
+        "speaker_group": "commission",
+        "speaker_affiliation": "Public Order Emergency Commission",
+        "speaker_affiliation_abbr": "POEC",
+        "speaker_id_web": "paul-rouleau"
+      },
+      {
+        "speaker_standardized": "prof. jack lindsay",
+        "n_interventions": 11,
+        "speaker_proper": "Jack Lindsay",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "jack-lindsay"
+      },
+      {
+        "speaker_standardized": "prof. christian leuprecht",
+        "n_interventions": 10,
+        "speaker_proper": "Christian Leuprecht",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "christian-leuprecht"
+      },
+      {
+        "speaker_standardized": "cal corley",
+        "n_interventions": 9,
+        "speaker_proper": "Cal Corley",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "cal-corley"
+      },
+      {
+        "speaker_standardized": "dr. michael kempa",
+        "n_interventions": 9,
+        "speaker_proper": "Michael Kempa",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "michael-kempa"
+      },
+      {
+        "speaker_standardized": "the registrar",
+        "n_interventions": 8,
+        "speaker_proper": "The Registrar",
+        "speaker_group": "commission",
+        "speaker_affiliation": "Public Order Emergency Commission",
+        "speaker_affiliation_abbr": "POEC",
+        "speaker_id_web": "the-registrar"
+      },
+      {
+        "speaker_standardized": "dr. judith sayers",
+        "n_interventions": 7,
+        "speaker_proper": "Judith Sayers",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "judith-sayers"
+      },
+      {
+        "speaker_standardized": "dr. dwight newman",
+        "n_interventions": 6,
+        "speaker_proper": "Dwight Newman",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "dwight-newman"
+      },
+      {
+        "speaker_standardized": "dr. kate puddister",
+        "n_interventions": 6,
+        "speaker_proper": "Kate Puddister",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "kate-puddister"
+      },
+      {
+        "speaker_standardized": "dr. malcolm thorburn",
+        "n_interventions": 6,
+        "speaker_proper": "Malcolm Thorburn",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "malcolm-thorburn"
+      }
+    ],
+    "n_speakers": 14,
+    "n_witnesses": 0
+  },
+  {
+    "url": "https://publicorderemergencycommission.ca/public-hearings/day-34-november-30/",
+    "day": 34,
+    "date_raw": "November 30, 2022",
+    "date": "2022-11-30",
+    "transcript_filename": "POEC-Public-Hearings-Volume-34-November-30-2022.pdf",
+    "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-34-November-30-2022.pdf",
+    "transcript_court_reporter": "Mitchell Kersys",
+    "proceeding_phase": "policy",
+    "pages_of_testimony": 170,
+    "speakers": [
+      {
+        "speaker_standardized": "michael williams",
+        "n_interventions": 63,
+        "speaker_proper": "Michael Williams",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "michael-williams"
+      },
+      {
+        "speaker_standardized": "kent roach",
+        "n_interventions": 42,
+        "speaker_proper": "Kent Roach",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "kent-roach"
+      },
+      {
+        "speaker_standardized": "dr. michael kempa",
+        "n_interventions": 18,
+        "speaker_proper": "Michael Kempa",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "michael-kempa"
+      },
+      {
+        "speaker_standardized": "commissioner rouleau",
+        "n_interventions": 16,
+        "speaker_proper": "Paul Rouleau",
+        "speaker_title": "Commissioner",
+        "speaker_group": "commission",
+        "speaker_affiliation": "Public Order Emergency Commission",
+        "speaker_affiliation_abbr": "POEC",
+        "speaker_id_web": "paul-rouleau"
+      },
+      {
+        "speaker_standardized": "bonnie emerson",
+        "n_interventions": 15,
+        "speaker_proper": "Bonnie Emerson",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "bonnie-emerson"
+      },
+      {
+        "speaker_standardized": "cal corley",
+        "n_interventions": 12,
+        "speaker_proper": "Cal Corley",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "cal-corley"
+      },
+      {
+        "speaker_standardized": "richard fadden",
+        "n_interventions": 12,
+        "speaker_proper": "Richard Fadden",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "richard-fadden"
+      },
+      {
+        "speaker_standardized": "dr. leah west",
+        "n_interventions": 10,
+        "speaker_proper": "Leah West",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "leah-west"
+      },
+      {
+        "speaker_standardized": "dr. wesley wark",
+        "n_interventions": 10,
+        "speaker_proper": "Wesley Wark",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "wesley-wark"
+      },
+      {
+        "speaker_standardized": "ward elcock",
+        "n_interventions": 10,
+        "speaker_proper": "Ward Elcock",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "ward-elcock"
+      },
+      {
+        "speaker_standardized": "dr. robert diab",
+        "n_interventions": 8,
+        "speaker_proper": "Robert Diab",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "robert-diab"
+      },
+      {
+        "speaker_standardized": "the registrar",
+        "n_interventions": 8,
+        "speaker_proper": "The Registrar",
+        "speaker_group": "commission",
+        "speaker_affiliation": "Public Order Emergency Commission",
+        "speaker_affiliation_abbr": "POEC",
+        "speaker_id_web": "the-registrar"
+      },
+      {
+        "speaker_standardized": "dr. colton fehr",
+        "n_interventions": 6,
+        "speaker_proper": "Colton Fehr",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "colton-fehr"
+      }
+    ],
+    "n_speakers": 13,
+    "n_witnesses": 0
+  },
+  {
+    "url": "https://publicorderemergencycommission.ca/public-hearings/day-33-november-29/",
+    "day": 33,
+    "date_raw": "November 29, 2022",
+    "date": "2022-11-29",
+    "transcript_filename": "POEC-Public-Hearings-Volume-33-November-29-2022.pdf",
+    "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-33-November-29-2022.pdf",
+    "transcript_court_reporter": "Sandrine Martineau-Lupien",
+    "proceeding_phase": "policy",
+    "pages_of_testimony": 173,
+    "speakers": [
+      {
+        "speaker_standardized": "dr. vanessa macdonnell",
+        "n_interventions": 86,
+        "speaker_proper": "Vanessa MacDonnell",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "vanessa-macdonnell"
+      },
+      {
+        "speaker_standardized": "wayne mackay",
+        "n_interventions": 45,
+        "speaker_proper": "Wayne Mackay",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "wayne-mackay"
+      },
+      {
+        "speaker_standardized": "dr. phil boyle",
+        "n_interventions": 23,
+        "speaker_proper": "Phil Boyle",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "phil-boyle"
+      },
+      {
+        "speaker_standardized": "commissioner rouleau",
+        "n_interventions": 22,
+        "speaker_proper": "Paul Rouleau",
+        "speaker_title": "Commissioner",
+        "speaker_group": "commission",
+        "speaker_affiliation": "Public Order Emergency Commission",
+        "speaker_affiliation_abbr": "POEC",
+        "speaker_id_web": "paul-rouleau"
+      },
+      {
+        "speaker_standardized": "dr. kevin quigley",
+        "n_interventions": 19,
+        "speaker_proper": "Kevin Quigley",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "kevin-quigley"
+      },
+      {
+        "speaker_standardized": "françois delorme",
+        "n_interventions": 15,
+        "speaker_proper": "François Delorme",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "francois-delorme"
+      },
+      {
+        "speaker_standardized": "dr. ambarish chandra",
+        "n_interventions": 13,
+        "speaker_proper": "Ambarish Chandra",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "ambarish-chandra"
+      },
+      {
+        "speaker_standardized": "florence ouellet",
+        "n_interventions": 12,
+        "speaker_proper": "Florence Ouellet",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "florence-ouellet"
+      },
+      {
+        "speaker_standardized": "dr. david morin",
+        "n_interventions": 11,
+        "speaker_proper": "David Morin",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "david-morin"
+      },
+      {
+        "speaker_standardized": "dr. dax d’orazio",
+        "n_interventions": 10,
+        "speaker_proper": "Dax D’Orazio",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "dax-d-orazio"
+      },
+      {
+        "speaker_standardized": "the registrar",
+        "n_interventions": 8,
+        "speaker_proper": "The Registrar",
+        "speaker_group": "commission",
+        "speaker_affiliation": "Public Order Emergency Commission",
+        "speaker_affiliation_abbr": "POEC",
+        "speaker_id_web": "the-registrar"
+      },
+      {
+        "speaker_standardized": "dr. emily laidlaw",
+        "n_interventions": 7,
+        "speaker_proper": "Emily Laidlaw",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "emily-laidlaw"
+      },
+      {
+        "speaker_standardized": "dr. vivek venkatesh",
+        "n_interventions": 7,
+        "speaker_proper": "Vivek Venkatesh",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "vivek-venkatesh"
+      },
+      {
+        "speaker_standardized": "dr. jonathon penny",
+        "n_interventions": 6,
+        "speaker_proper": "Jonathon Penny",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "jonathon-penny"
+      }
+    ],
+    "n_speakers": 14,
+    "n_witnesses": 0
+  },
+  {
+    "url": "https://publicorderemergencycommission.ca/public-hearings/day-32-november-28/",
+    "day": 32,
+    "date_raw": "November 28, 2022",
+    "date": "2022-11-28",
+    "transcript_filename": "POEC-Public-Hearings-Volume-32-November-28-2022.pdf",
+    "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-32-November-28-2022.pdf",
+    "transcript_court_reporter": "Sandrine Martineau-Lupien",
+    "proceeding_phase": "policy",
+    "pages_of_testimony": 176,
+    "speakers": [
+      {
+        "speaker_standardized": "dean robert leckey",
+        "n_interventions": 84,
+        "speaker_proper": "Robert Leckey",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "robert-leckey"
+      },
+      {
+        "speaker_standardized": "patrick leblond",
+        "n_interventions": 64,
+        "speaker_proper": "Patrick Leblond",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "patrick-leblond"
+      },
+      {
+        "speaker_standardized": "jessica davis",
+        "n_interventions": 24,
+        "speaker_proper": "Jessica Davis",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "jessica-davis"
+      },
+      {
+        "speaker_standardized": "prof. jamie cameron",
+        "n_interventions": 20,
+        "speaker_proper": "Jamie Cameron",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "jamie-cameron"
+      },
+      {
+        "speaker_standardized": "commissioner rouleau",
+        "n_interventions": 18,
+        "speaker_proper": "Paul Rouleau",
+        "speaker_title": "Commissioner",
+        "speaker_group": "commission",
+        "speaker_affiliation": "Public Order Emergency Commission",
+        "speaker_affiliation_abbr": "POEC",
+        "speaker_id_web": "paul-rouleau"
+      },
+      {
+        "speaker_standardized": "prof. richard moon",
+        "n_interventions": 18,
+        "speaker_proper": "Richard Moon",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "richard-moon"
+      },
+      {
+        "speaker_standardized": "prof. michelle gallant",
+        "n_interventions": 16,
+        "speaker_proper": "Michelle Gallant",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "michelle-gallant"
+      },
+      {
+        "speaker_standardized": "dr. vanessa macdonnell",
+        "n_interventions": 15,
+        "speaker_proper": "Vanessa MacDonnell",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "vanessa-macdonnell"
+      },
+      {
+        "speaker_standardized": "prof. christian leuprecht",
+        "n_interventions": 12,
+        "speaker_proper": "Christian Leuprecht",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "christian-leuprecht"
+      },
+      {
+        "speaker_standardized": "prof. carissima mathen",
+        "n_interventions": 10,
+        "speaker_proper": "Carissima Mathen",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "carissima-mathen"
+      },
+      {
+        "speaker_standardized": "prof. jean-françois gaudreault-desbiens",
+        "n_interventions": 10,
+        "speaker_proper": "Jean-François Gaudreault-Desbiens",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "jean-francois-gaudreault-desbiens"
+      },
+      {
+        "speaker_standardized": "prof. michelle cumyn",
+        "n_interventions": 10,
+        "speaker_proper": "Michelle Cumyn",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "michelle-cumyn"
+      },
+      {
+        "speaker_standardized": "prof. brian bird",
+        "n_interventions": 8,
+        "speaker_proper": "Brian Bird",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "brian-bird"
+      },
+      {
+        "speaker_standardized": "prof. gerard kennedy",
+        "n_interventions": 8,
+        "speaker_proper": "Gerard Kennedy",
+        "speaker_title": "?TBC?TBC?TBC?",
+        "speaker_group": "expert",
+        "speaker_affiliation": "?TBC?TBC?TBC?",
+        "speaker_id_web": "gerard-kennedy"
+      },
+      {
+        "speaker_standardized": "the registrar",
+        "n_interventions": 7,
+        "speaker_proper": "The Registrar",
+        "speaker_group": "commission",
+        "speaker_affiliation": "Public Order Emergency Commission",
+        "speaker_affiliation_abbr": "POEC",
+        "speaker_id_web": "the-registrar"
+      },
+      {
+        "speaker_standardized": "unidentified speaker",
+        "n_interventions": 1,
+        "speaker_proper": "Unidentified speaker",
+        "speaker_group": "other",
+        "speaker_id_web": "unidentified-speaker"
+      }
+    ],
+    "n_speakers": 16,
+    "n_witnesses": 0
+  },
+  {
     "url": "https://publicorderemergencycommission.ca/public-hearings/day-31-november-25/",
     "day": 31,
     "date_raw": "November 25, 2022",
@@ -7,6 +679,7 @@
     "transcript_filename": "POEC-Public-Hearings-Volume-31-November-25-2022.pdf",
     "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-31-November-25-2022.pdf",
     "transcript_court_reporter": "Sean Prouse",
+    "proceeding_phase": "factual",
     "pages_of_testimony": 261,
     "speakers": [
       {
@@ -310,6 +983,7 @@
     "transcript_filename": "POEC-Public-Hearings-Volume-30-November-24-2022.pdf",
     "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-30-November-24-2022.pdf",
     "transcript_court_reporter": "Wendy Clements",
+    "proceeding_phase": "factual",
     "pages_of_testimony": 340,
     "speakers": [
       {
@@ -604,6 +1278,7 @@
     "transcript_filename": "POEC-Public-Hearings-Volume-29-November-23-2022.pdf",
     "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-29-November-23-2022.pdf",
     "transcript_court_reporter": "Mitchell Kersys",
+    "proceeding_phase": "factual",
     "pages_of_testimony": 289,
     "speakers": [
       {
@@ -910,6 +1585,7 @@
     "transcript_filename": "POEC-Public-Hearings-Volume-28-November-22-2022.pdf",
     "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-28-November-22-2022.pdf",
     "transcript_court_reporter": "Mitchell Kersys",
+    "proceeding_phase": "factual",
     "pages_of_testimony": 344,
     "speakers": [
       {
@@ -1238,6 +1914,7 @@
     "transcript_filename": "POEC-Public-Hearings-Volume-27-November-21-2022.pdf",
     "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-27-November-21-2022.pdf",
     "transcript_court_reporter": "Sandrine Martineau-Lupien",
+    "proceeding_phase": "factual",
     "pages_of_testimony": 352,
     "speakers": [
       {
@@ -1552,6 +2229,7 @@
     "transcript_filename": "POEC-Public-Hearings-Volume-26-November-18-2022.pdf",
     "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-26-November-18-2022.pdf",
     "transcript_court_reporter": "Wendy Clements",
+    "proceeding_phase": "factual",
     "pages_of_testimony": 308,
     "speakers": [
       {
@@ -1806,6 +2484,7 @@
     "transcript_filename": "POEC-Public-Hearings-Volume-25-November-17-2022.pdf",
     "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-25-November-17-2022.pdf",
     "transcript_court_reporter": "Wendy Clements",
+    "proceeding_phase": "factual",
     "pages_of_testimony": 322,
     "speakers": [
       {
@@ -2123,6 +2802,7 @@
     "transcript_filename": "POEC-Public-Hearings-Volume-24-November-16-2022.pdf",
     "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-24-November-16-2022.pdf",
     "transcript_court_reporter": "Wendy Clements",
+    "proceeding_phase": "factual",
     "pages_of_testimony": 275,
     "speakers": [
       {
@@ -2343,6 +3023,7 @@
     "transcript_filename": "POEC-Public-Hearings-Volume-23-November-15-2022.pdf",
     "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-23-November-15-2022.pdf",
     "transcript_court_reporter": "Mitchell Kersys",
+    "proceeding_phase": "factual",
     "pages_of_testimony": 352,
     "speakers": [
       {
@@ -2610,6 +3291,7 @@
     "transcript_filename": "POEC-Public-Hearings-Volume-22-November-14-2022.pdf",
     "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-22-November-14-2022.pdf",
     "transcript_court_reporter": "Mitchell Kersys",
+    "proceeding_phase": "factual",
     "pages_of_testimony": 292,
     "speakers": [
       {
@@ -2898,6 +3580,7 @@
     "transcript_filename": "POEC-Public-Hearings-Volume-21-November-10-2022.pdf",
     "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-21-November-10-2022.pdf",
     "transcript_court_reporter": "Wendy Clements",
+    "proceeding_phase": "factual",
     "pages_of_testimony": 389,
     "speakers": [
       {
@@ -3172,6 +3855,7 @@
     "transcript_filename": "POEC-Public-Hearings-Volume-20-November-9-2022.pdf",
     "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-20-November-9-2022.pdf",
     "transcript_court_reporter": "Maxime Roussy",
+    "proceeding_phase": "factual",
     "pages_of_testimony": 221,
     "speakers": [
       {
@@ -3440,6 +4124,7 @@
     "transcript_filename": "POEC-Public-Hearings-Volume-19-November-8-2022.pdf",
     "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-19-November-8-2022.pdf",
     "transcript_court_reporter": "Sandrine Martineau-Lupien",
+    "proceeding_phase": "factual",
     "pages_of_testimony": 297,
     "speakers": [
       {
@@ -3737,6 +4422,7 @@
     "transcript_filename": "POEC-Public-Hearings-Volume-18-November-7-2022.pdf",
     "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-18-November-7-2022.pdf",
     "transcript_court_reporter": "Sandrine Martineau-Lupien",
+    "proceeding_phase": "factual",
     "pages_of_testimony": 292,
     "speakers": [
       {
@@ -3954,6 +4640,7 @@
     "transcript_filename": "POEC-Public-Hearings-Volume-17-November-4-2022.pdf",
     "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-17-November-4-2022.pdf",
     "transcript_court_reporter": "Sandrine Martineau-Lupien",
+    "proceeding_phase": "factual",
     "pages_of_testimony": 313,
     "speakers": [
       {
@@ -4224,6 +4911,7 @@
     "transcript_filename": "POEC-Public-Hearings-Volume-16-November-3-2022.pdf",
     "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-16-November-3-2022.pdf",
     "transcript_court_reporter": "Wendy Clements",
+    "proceeding_phase": "factual",
     "pages_of_testimony": 352,
     "speakers": [
       {
@@ -4450,6 +5138,7 @@
     "transcript_filename": "POEC-Public-Hearings-Volume-15-November-2-2022.pdf",
     "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-15-November-2-2022.pdf",
     "transcript_court_reporter": "Wendy Clements",
+    "proceeding_phase": "factual",
     "pages_of_testimony": 265,
     "speakers": [
       {
@@ -4661,6 +5350,7 @@
     "transcript_filename": "POEC-Public-Hearings-Volume-14-November-1-2022.pdf",
     "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-14-November-1-2022.pdf",
     "transcript_court_reporter": "Wendy Clements",
+    "proceeding_phase": "factual",
     "pages_of_testimony": 339,
     "speakers": [
       {
@@ -4914,6 +5604,7 @@
     "transcript_filename": "POEC-Public-Hearings-Volume-13-October-31-2022.pdf",
     "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-13-October-31-2022.pdf",
     "transcript_court_reporter": "Sandrine Martineau-Lupien",
+    "proceeding_phase": "factual",
     "pages_of_testimony": 310,
     "speakers": [
       {
@@ -5111,6 +5802,7 @@
     "transcript_filename": "POEC-Public-Hearings-Volume-12-October-28-2022.pdf",
     "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-12-October-28-2022.pdf",
     "transcript_court_reporter": "Wendy Clements",
+    "proceeding_phase": "factual",
     "pages_of_testimony": 273,
     "speakers": [
       {
@@ -5202,6 +5894,7 @@
     "transcript_filename": "POEC-Public-Hearings-Volume-11-October-27-2022.pdf",
     "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-11-October-27-2022.pdf",
     "transcript_court_reporter": "Wendy Clements",
+    "proceeding_phase": "factual",
     "pages_of_testimony": 314,
     "speakers": [
       {
@@ -5400,6 +6093,7 @@
     "transcript_filename": "POEC-Public-Hearings-Volume-10-October-26-2022.pdf",
     "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-10-October-26-2022.pdf",
     "transcript_court_reporter": "Wendy Clements",
+    "proceeding_phase": "factual",
     "pages_of_testimony": 302,
     "speakers": [
       {
@@ -5635,6 +6329,7 @@
     "transcript_filename": "POEC-Public-Hearings-Volume-9-October-25-2022.pdf",
     "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-9-October-25-2022.pdf",
     "transcript_court_reporter": "Wendy Clements",
+    "proceeding_phase": "factual",
     "pages_of_testimony": 297,
     "speakers": [
       {
@@ -5890,6 +6585,7 @@
     "transcript_filename": "POEC-Public-Hearings-Volume-8-October-24-2022.pdf",
     "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-8-October-24-2022.pdf",
     "transcript_court_reporter": "Sandrine Martineau-Lupien",
+    "proceeding_phase": "factual",
     "pages_of_testimony": 269,
     "speakers": [
       {
@@ -6078,6 +6774,7 @@
     "transcript_filename": "POEC-Public-Hearings-Volume-7-October-21-2022.pdf",
     "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-7-October-21-2022.pdf",
     "transcript_court_reporter": "Wendy Clements",
+    "proceeding_phase": "factual",
     "pages_of_testimony": 272,
     "speakers": [
       {
@@ -6295,6 +6992,7 @@
     "transcript_filename": "POEC-Public-Hearings-Volume-6-October-20-2022.pdf",
     "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-6-October-20-2022.pdf",
     "transcript_court_reporter": "Wendy Clements",
+    "proceeding_phase": "factual",
     "pages_of_testimony": 283,
     "speakers": [
       {
@@ -6481,6 +7179,7 @@
     "transcript_filename": "POEC-Public-Hearings-Volume-5-October-19-2022.pdf",
     "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-5-October-19-2022.pdf",
     "transcript_court_reporter": "Mitchell Kersys",
+    "proceeding_phase": "factual",
     "pages_of_testimony": 305,
     "speakers": [
       {
@@ -6705,6 +7404,7 @@
     "transcript_filename": "POEC-Public-Hearings-Volume-4-October-18-2022.pdf",
     "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-4-October-18-2022.pdf",
     "transcript_court_reporter": "Sandrine Martineau-Lupien",
+    "proceeding_phase": "factual",
     "pages_of_testimony": 277,
     "speakers": [
       {
@@ -6892,6 +7592,7 @@
     "transcript_filename": "POEC-Public-Hearings-Volume-3-October-17-2022.pdf",
     "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-3-October-17-2022.pdf",
     "transcript_court_reporter": "Sandrine Martineau-Lupien",
+    "proceeding_phase": "factual",
     "pages_of_testimony": 329,
     "speakers": [
       {
@@ -7105,6 +7806,7 @@
     "transcript_filename": "POEC-Public-Hearings-Volume-2-October-14-2022.pdf",
     "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-2-October-14-2022.pdf",
     "transcript_court_reporter": "Maxime Roussy",
+    "proceeding_phase": "factual",
     "pages_of_testimony": 314,
     "speakers": [
       {
@@ -7322,6 +8024,7 @@
     "transcript_filename": "POEC-Public-Hearings-Volume-1-October-13-2022.pdf",
     "transcript_url": "https://publicorderemergencycommission.ca/files/documents/Transcripts/POEC-Public-Hearings-Volume-1-October-13-2022.pdf",
     "transcript_court_reporter": "Dale Waterman",
+    "proceeding_phase": "factual",
     "pages_of_testimony": 107,
     "speakers": [
       {
