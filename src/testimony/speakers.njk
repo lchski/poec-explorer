@@ -11,7 +11,7 @@ title: "Speakers – POEC Explorer"
 
 	
 	{% for speaker_group, speakers in testimony.speakers | sort(false, false, 'speaker_proper') | groupby('speaker_group') %}
-		<h2 id="speaker_group">{{ speaker_group | title }}</h2>
+		<h2 id="{{ speaker_group }}">{{ speaker_group | title }}</h2>
 		<ul class="list--spaced">
 			{% for speaker in speakers %}
 			<li>{% if speaker.speaker_title_abbr %}
